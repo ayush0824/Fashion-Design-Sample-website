@@ -1,0 +1,574 @@
+*
+{
+	font-family:Verdana, Geneva, sans-serif;
+}
+/*--------------------**********font-family*******************---------------------------------****************************************-------------------*/
+body
+{
+	margin:0px;
+	background-color:#fff;
+}
+/*--------------------*********body*****************---------------------------------****************************************-------------------*/
+star
+{
+	color: #f00;
+	font-size: 20px;
+	font-weight: bold;
+}
+/*----------------***************star-tag***************---------------------------*****************-------------------------
+.outer
+{
+	margin:0 auto;
+}
+/*--------------------********outer****************---------------------------------****************************************-------------------*/
+.adminheader
+{
+	font-size:24px;
+	color:#fff;
+	float:right;
+	font-weight:bold;
+	margin:35px 20px 0 0;
+}
+.adminheader:hover
+{
+	color:yellowgreen;
+	transition: 2s;
+	transform: scale(1.2,1);
+}
+/*--------------------********header****************---------------------------------****************************************-------------------*/
+
+.loginbody
+{
+	background-color: #ccc;
+}
+.login
+{
+	width:600px;
+	margin:120px auto;
+	border-radius:15px;
+	background-color:#eee;
+}
+
+.login .h1
+{
+	color: #444;
+	width: 100%;
+	text-align: center;
+}
+.login .h1:hover
+{
+	background-color:#CF9;
+}
+
+.login .h4
+{
+	padding: 8px;
+	color: #444;
+	border: 1px solid #fff;
+	width: 460px;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #CCC;
+	border-radius: 5px;
+}
+.login .h4:hover
+{
+	background-color:#F93;
+}
+
+.login .input
+{
+	width: 400px;
+	height: 50px;
+	color: #444;
+	font-size: 15px;
+	margin: 5px 0 0 1px;
+	padding-left: 15px;
+	border-top-right-radius:5px;
+	border-bottom-right-radius:5px;
+	border:1px solid #fff;
+}
+.login .input:hover
+{
+	background-color:#F93;
+}
+
+.login .box
+{
+	margin-left:75px;
+}
+
+.login i
+{
+	background-color: #fff;
+	width: 50px;
+	text-align: center;
+	padding: 16px 0 18px 0;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.login .btnlogin
+{
+	width: 150px;
+	height: 50px;
+	background-color: #999;
+	margin-left: 373px;
+	color: #444;
+	font-size: 18px;
+	border-radius: 5px;
+	border: 1px solid #fff;
+}
+.login .btnlogin:hover
+{
+	background-color:#CCC;
+}
+/*--------------------*********login*******************---------------------------------*********login**********************-------------------*/
+.header
+{
+	width:100%;
+	height:80px;
+	background:#444;
+}
+/*--------------------*********header*******************---------------------------------****************************************-------------------*/
+.footer
+{
+	width:100%;
+	height:20px;
+		background:#444;
+}
+/*--------------------*********footer*******************---------------------------------****************************************-------------------*/
+.main
+{
+	width:100%;
+	background-color:#fff;
+}
+/*--------------------*********main*******************---------------------------------****************************************-------------------*/
+.lmenu
+{
+	width: 15%;
+	background-color: #EEE;
+	float: left;
+	border-right: 1px solid #CCC;
+}
+.lmenu:Hover, .currentpage
+{
+	color: yellowgreen;
+}
+.leftmenus{
+	margin: 5px 0 0 0;
+}
+.lmenu a
+{
+	color: #444;
+	margin: 0px 0px 0px 0px;
+	text-decoration: none;
+	font-size: 13px;
+}
+.lmenu a:hover
+{
+	color:#09F;
+}
+.btnlmenu
+{
+	width: 140px;
+	height: 15px;
+	padding: 8px 0px 10px 10px;
+	text-align: left;
+	margin-bottom: 8px;
+	border-radius: 3px;
+	border: 1px solid #444;
+	background: #FFF;
+}
+/*--------------------*********lmenu*******************---------------------------------****************************************-------------------*/
+.rpart
+{
+	width:84%;
+	float:left;
+}
+.container
+{
+	margin:2%;
+	border:1px solid #eee;
+	border-radius:5px;
+	padding:5px;
+	background-color:#eee;
+}
+.ctop
+{
+	font-size:20px;
+	font-weight:bold;
+	padding:10px;
+	background-color:#ccc;
+	color:#444;
+}
+.ctop:hover
+{
+	color:yellowgreen;
+	transition: 2s;
+	transform: scale(1,1.2);
+}
+.cmid
+{
+	padding:10px;
+}
+
+.row
+{
+	width:100%;
+	float:left;
+	margin-bottom:5px;
+}
+.row lable
+{
+	float:left;
+	width:20%;
+	font-weight:bold;
+	margin-top:50px;
+}
+.row .filelable 
+{
+	margin-top:auto;
+}
+.row .input
+{
+	width:80%;
+	float:left;
+}
+.g
+{
+	margin-top:0px;
+}
+
+
+.gtitle
+{
+	width: 60%;
+	height: 40px;
+	border-radius:5px;
+	border:1px solid #444;
+}
+.text
+{
+	margin-top:10px !important;
+}
+.hupdate
+{
+	margin-left:50%;
+	margin-top:5%;
+	background-color:#999;
+	border-radius:5px;
+	border:5px solid #fff;
+	color:#fff;
+	font-weight:bold;
+	font-size:15px;
+	width:120px;
+	height:40px;
+}
+.viewsun
+{
+	width:100%;
+	height:50px;
+	background-color:#eee;
+}
+.w120
+{
+	width:120px;
+	height:30px;
+	font-size:16px;
+	color:#fff;
+	background-color:#777;
+	float:left;
+	border:1px solid #444;
+	text-align:center;
+	padding-top:8px;
+	margin:5px 0 0 5px;
+}
+.w121
+{
+	width:122px;
+	height:40px;
+	font-size:16px;
+	color:#fff;
+	background-color:#777;
+	float:left;
+	border:1px solid #444;
+	border-radius: 5px;
+	text-align:center;
+	padding-top:4px;
+	margin:5px 0 0 5px;
+}
+.w122
+{
+	width:70px;
+	height:40px;
+	font-size:16px;
+	color:#fff;
+	background-color:#777;
+	float:left;
+	border:1px solid #444;
+	border-radius: 5px;
+	text-align:center;
+	padding-top:4px;
+	margin:5px 0 0 5px;
+}
+.w123
+{
+	width:122px;
+	height:40px;
+	font-size:16px;
+	color:#000;
+	float:left;
+	border:1px solid #444;
+	text-align:center;
+	padding-top:8px;
+	margin:5px 0 0 5px;
+}
+.w160
+{
+	width:160px;
+	height:30px;
+	font-size:16px;
+	color:#fff;
+	background-color:#777;
+	float:left;
+	border:1px solid #444;
+	text-align:center;
+	padding-top:8px;
+	margin:5px 0 0 5px;
+}
+.w161
+{
+	width: 125px;
+	height: 30px;
+	font-size: 16px;
+	color: #fff;
+	background-color: #777;
+	float: left;
+	border: 1px solid #444;
+	text-align: center;
+	padding-top: 8px;
+	margin: 5px 0 0 5px;
+}
+.w100
+{
+	width:100px;
+	height:30px;
+	font-size:16px;
+	color:#fff;
+	background-color:#777;
+	float:left;
+	border:1px solid #444;
+	text-align:center;
+	padding-top:8px;
+	margin:5px 0 0 5px;
+}
+.w101
+{
+	width:45px;
+	height:30px;
+	font-size:16px;
+	color:#fff;
+	background-color:#777;
+	float:left;
+	border:1px solid #444;
+	text-align:center;
+	padding-top:8px;
+	margin:5px 0 0 5px;
+}
+.w150
+{
+	width:150px;
+	height:30px;
+	font-size:16px;
+	color:#fff;
+	background-color:#777;
+	float:left;
+	border:1px solid #444;
+	text-align:center;
+	padding-top:8px;
+	margin:5px 0 0 5px;
+}
+.w168
+{
+	width:168px;
+	height:30px;
+	font-size:16px;
+	color:#fff;
+	background-color:#777;
+	float:left;
+	border:1px solid #444;
+	text-align:center;
+	padding-top:8px;
+	margin:5px 0 0 5px;
+}
+.w1201
+{
+	width:120px;
+	height:40px;
+	font-size:16px;
+	color:#333;
+	float:left;
+	border:1px solid #444;
+	text-align:left;
+	padding:5px 2px 2px 2px;
+	margin:5px 0 0 5px;
+}
+.w1202
+{
+	width:60px;
+	height:20px;
+	font-size:16px;
+	color:#333;
+	float:left;
+	border:1px solid #444;
+	text-align:center;
+	padding:20px 2px 2px 25px;
+	margin:10px 0 0 30px;
+}
+.w1203
+{
+	width:60px;
+	height:20px;
+	font-size:16px;
+	color:#333;
+	float:left;
+	border:1px solid #444;
+	text-align:center;
+	padding:20px 2px 2px 25px;
+	margin:10px 0 0 5px;
+}
+.w1602
+{
+	width:160px;
+	height:40px;
+	font-size:16px;
+	color:#333;
+	float:left;
+	border:1px solid #444;
+	text-align:left;
+	padding:5px 2px 2px 2px;
+	margin:5px 0 0 5px;
+}
+.w1603
+{
+	width:127px;
+	height:40px;
+	font-size:16px;
+	color:#333;
+	float:left;
+	border:1px solid #444;
+	text-align:left;
+	padding:5px 2px 2px 2px;
+	margin:5px 0 0 5px;
+}
+.w1601
+{
+	width:100px;
+	height:30px;
+	font-size:16px;
+	color:#333;
+	float:left;
+	border:1px solid #444;
+	padding:5px 2px 4px 2px;
+	margin:5px 0 0 33px;
+}
+.w1003
+{
+	width:100px;
+	height:40px;
+	font-size:16px;
+	color:#333;
+	float:left;
+	border:1px solid #444;
+	text-align:center;
+	padding:5px 2px 2px 2px;
+	margin:5px 0 0 5px;
+}
+.w1004
+{
+	width:45px;
+	height:40px;
+	font-size:16px;
+	color:#333;
+	float:left;
+	border:1px solid #444;
+	text-align:center;
+	padding:5px 2px 2px 2px;
+	margin:5px 0 0 5px;
+}
+.w168
+{
+	width:168px;
+	height:30px;
+	font-size:16px;
+	color:#fff;
+	float:left;
+	background-color:#777;
+	border:1px solid #444;
+	text-align:center;
+	padding-top:8px;
+	margin:5px 0 0 5px;
+}
+
+.w16841
+{
+	width:80px;
+	height:30px;
+	font-size:16px;
+	color:#333;
+	float:left;
+	background-color:yellowgreen;
+	border:1px solid #444;
+	border-radius: 5px;
+	padding:8px 0 0 0px;
+	margin:5px 0 0 5px;
+}
+.w16842
+{
+	width:71px;
+	height:30px;
+	font-size:16px;
+	color:#333;
+	float:left;
+	background-color:yellowgreen;
+	border:1px solid #444;
+	border-radius: 5px;
+	padding:8px 0 0 0px;
+	margin:5px 0 0 5px;
+}
+.w16843
+{
+	width:150px;
+	height:30px;
+	font-size:16px;
+	color:#333;
+	background-color:yellowgreen;
+	border:1px solid #444;
+	border-radius: 5px;
+	text-align:center;
+	padding-top:8px;
+	margin:5px 0 0 5px;
+}
+.w16843 a
+{
+	text-decoration: none;
+}
+/*--------------------*********rpart*******************---------------------------------****************************************-------------------*/
+.pagging
+{
+	width:500px;
+	height:40px;
+	background-color:#CCC;
+	margin:20px auto;
+	color:yellowgreen;
+	border-radius:10px;
+	font-size:22px;
+	padding-top:20px;
+	text-align:center;
+}
+.pagging a
+{
+	color:#444;
+}
+/*--------------------*********pagging*******************---------------------------------*****************/

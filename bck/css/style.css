@@ -1,0 +1,73 @@
+body
+{
+	margin:0px;
+	background-color:#000;
+}
+
+.outer
+{
+	width:600px;
+	height:500px;
+	margin:90px auto;
+	border-radius:50%;
+	background-color:#999;
+}
+
+.h1
+{
+	padding:70px 110px 40px 110px;
+	color:#fff;
+}
+
+.h4
+{
+	padding: 5px 0px 0px 10px;
+	color: #fff;
+	border: 1px solid #fff;
+	width: 360px;
+	margin-left: 112px;
+	height: 30px;
+	text-align: center;
+	background-color: orange;
+	border-radius: 10px;
+}
+
+.input
+{
+	width: 400px;
+	height: 50px;
+	background-color: #CC0;
+	color: #00C;
+	font-size: 15px;
+	margin: 5px 0 0 1px;
+	padding-left: 15px;
+	border-top-right-radius:15px;
+	border-bottom-right-radius:15px;
+	border:1px solid #fff;
+}
+
+.box
+{
+	margin-left:75px;
+}
+
+i
+{
+	background-color:#BBB;
+	width:50px; 
+	height:34px;
+	text-align:center;
+	padding-top:16px;
+	border-top-left-radius:15px;
+	border-bottom-left-radius:15px;
+}
+
+.login
+{
+	width:150px;
+	height:50px;
+	background-color:#09F;
+	margin-left:235px;
+	border-radius:20px;
+	border:1px solid #fff;
+}
